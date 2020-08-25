@@ -5,9 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(
+  to left,
+  rgba(7, 12, 13, 0.3),
+  rgba(4, 54, 66, 0.8 )
+  );
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App h1 {
+  font-family: 'Holtwood One SC', serif;
 }
